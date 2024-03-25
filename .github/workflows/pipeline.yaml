@@ -7,7 +7,7 @@ on:
 
 jobs:
   checkstyle-python:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Git clone project
         uses: actions/checkout@v2
